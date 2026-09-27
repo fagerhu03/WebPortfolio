@@ -1,0 +1,10 @@
+.dart_tool/
+.idea/
+android/
+ios/
+linux/
+macos/
+windows/
+build/
+assets/images/lost_in_egypt/*.png
+assets/fonts/Manrope.ttf

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#F5F7FA">
+  <meta name="color-scheme" content="light dark">
+  <title>Fager Hussein Ahmed | Flutter Developer & Software Engineer</title>
+  <meta name="description" content="Fager Hussein Ahmed, Flutter Developer & Software Engineer in Giza, Egypt. Explore mobile apps, AI projects and Lost in Egypt, an intelligent travel companion.">
+  <link rel="canonical" href="https://fager-hussien-portfolio.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fager Hussein Ahmed | Flutter Developer">
+  <meta property="og:description" content="Useful mobile experiences. Thoughtful engineering. Explore Flutter, AI and cloud projects by Fager Hussein Ahmed.">
+  <meta property="og:url" content="https://fager-hussien-portfolio.vercel.app/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    :root {color-scheme:light;--bg:#f5f7fa;--fg:#16243a;--accent:#08644e;--muted:#53647a}
+    :root[data-theme=dark] {color-scheme:dark;--bg:#080f1d;--fg:#f2f6fc;--accent:#6fe2bd;--muted:#a8b7cc}
+    body {margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,sans-serif}
+    #loading {min-height:100dvh;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;box-sizing:border-box}
+    #loading strong {display:block;font-size:24px;letter-spacing:-.6px;margin:20px 0 8px}
+    #loading p {font-size:14px;color:var(--muted);line-height:1.6}
+    .monogram {display:inline-grid;place-items:center;width:64px;height:64px;border:1px solid var(--accent);color:var(--accent);border-radius:18px;font-weight:800;font-size:24px}
+    a {color:var(--accent)}
+    #recovery {display:none}
+    button {background:var(--accent);color:var(--bg);border:0;border-radius:10px;padding:14px 20px;font:inherit;cursor:pointer}
+    button:focus-visible,a:focus-visible {outline:3px solid var(--accent);outline-offset:5px}
+  </style>
+  <script>
+    (()=>{let theme;try{theme=localStorage.getItem('fager-portfolio-theme')}catch(_){}
+      document.documentElement.dataset.theme=theme==='dark'||theme!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';})();
+  </script>
+</head>
+<body>
+  <div id="loading" role="status" aria-live="polite"><div>
+    <span class="monogram" aria-hidden="true">FA</span>
+    <strong>Fager Hussein Ahmed</strong><p>Flutter Developer &amp; Software Engineer</p>
+    <p id="loading-message">Preparing the portfolio…</p>
+    <div id="recovery"><p>The portfolio is taking longer than expected.</p>
+      <button onclick="location.reload()">Try again</button><p>Or email <a href="mailto:fagerhu03@gmail.com">fagerhu03@gmail.com</a>.</p></div>
+  </div></div>
+  <noscript><p>This interactive Flutter portfolio requires JavaScript. Contact <a href="mailto:fagerhu03@gmail.com">Fager by email</a> or explore <a href="https://github.com/fagerhu03">GitHub</a>.</p></noscript>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

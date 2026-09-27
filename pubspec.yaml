@@ -1,0 +1,43 @@
+name: fager_flutter_portfolio
+description: Fager Hussein Ahmed — Flutter Developer & Software Engineer.
+publish_to: none
+version: 2.0.0+2
+environment:
+  sdk: ^3.10.7
+dependencies:
+  flutter:
+    sdk: flutter
+  web: ^1.1.1
+  cupertino_icons: ^1.0.8
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/islami.png
+    - assets/images/shopping.png
+    - assets/images/petal.png
+    - assets/images/movie.png
+    - assets/images/profile.webp
+    - assets/images/Fager_pic.jpg
+    - assets/images/lost_in_egypt/home.webp
+    - assets/images/lost_in_egypt/ai_camera.webp
+    - assets/images/lost_in_egypt/map.webp
+    - assets/images/lost_in_egypt/community.webp
+    - assets/images/lost_in_egypt/solo_trip.webp
+    - assets/images/lost_in_egypt/tour.webp
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-400.ttf
+          weight: 400
+        - asset: assets/fonts/Manrope-500.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-600.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-700.ttf
+          weight: 700
+        - asset: assets/fonts/Manrope-800.ttf
+          weight: 800
